@@ -1,0 +1,1 @@
+grep -o -E '\w+' < File2.txt | sort -f -u | wc -l
